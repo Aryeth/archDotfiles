@@ -46,7 +46,7 @@ let g:vimtex_view_forward_search_on_start=0
 
 let g:UltiSnipsSnippetDirectories = ['~/.vim/plugged/vim-easycomplete/snippets/ultisnips/']
 let g:easycomplete_tab_trigger="<c-space>"
-let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnips#ExpandSnippetOrJump="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 let g:UltiSnipsEditSplit="vertical"
